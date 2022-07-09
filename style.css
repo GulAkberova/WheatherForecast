@@ -1,0 +1,45 @@
+/* #box{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.card,.card2{
+    width: 33%;
+    height: 400px;
+    font-size: 15px;
+}
+.card2{
+    background-color: red;
+} */
+body{
+    background-color: rgb(186, 234, 234);
+}
+.div{
+    width: 20%;
+    height: 200px;
+    background-color: rgb(207, 232, 232);
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-left: -3px;
+    transform: scale(0);
+    animation-name: div;
+    animation-duration: 2s;
+    animation-delay: 0;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes div{
+    0%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1);
+        transition: 1s;
+    }
+    
+}
+.h3{
+    color: crimson;
+}
